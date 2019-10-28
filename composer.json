@@ -33,7 +33,8 @@
     "swoft/limiter": "~2.0.0",
     "swoft/breaker": "~2.0.0",
     "swoft/crontab": "~2.0.0",
-    "swoft/devtool": "~2.0.0"
+    "swoft/devtool": "~2.0.0",
+    "swoft/session": "^2.0"
   },
   "require-dev": {
     "swoft/swoole-ide-helper": "dev-master",
@@ -61,5 +62,11 @@
       "./vendor/bin/phpunit -c phpunit.xml"
     ],
     "cs-fix": "./vendor/bin/php-cs-fixer fix $1"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
   }
 }

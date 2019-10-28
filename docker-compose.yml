@@ -22,7 +22,7 @@ services:
       # - ./runtime/logs:/var/log
 
   mysql:
-    image: mysql
+    image: mysql:5.6.43
     container_name: mysql-srv
     environment:
       - MYSQL_ROOT_PASSWORD=123456
